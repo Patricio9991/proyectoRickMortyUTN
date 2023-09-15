@@ -1,0 +1,15 @@
+button{
+    color:#344d67!important;
+    background-color: #6eccaf!important;
+}
+
+.card{
+    background-color: #223142!important;
+    width: fit-content!important;
+}
+
+h3{
+    width: 300px;
+    text-align: center;
+    color: #344d67;
+}
