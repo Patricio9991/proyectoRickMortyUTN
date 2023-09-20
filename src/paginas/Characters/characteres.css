@@ -1,3 +1,7 @@
 body{
     color:whitesmoke
 }
+
+.row{
+    justify-content: center;
+}

@@ -1,15 +1,17 @@
 button{
-    color:#344d67!important;
-    background-color: #6eccaf!important;
+    color:#344d67;
+    background-color: #6eccaf;
+    align-self: flex-end;
 }
 
 .card{
-    background-color: #223142!important;
-    width: fit-content!important;
+    display: flex;
+    background-color: #223142;
+    width: fit-content;
 }
 
 h3{
     width: 300px;
     text-align: center;
-    color: #344d67;
+    color: #344d67
 }
