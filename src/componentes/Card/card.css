@@ -1,13 +1,15 @@
-button{
-    color:#344d67;
-    background-color: #6eccaf;
+.btn{
+    color:#344d67!important;
+    background-color: #6eccaf!important;
     align-self: flex-end;
 }
 
 .card{
     display: flex;
+   
     background-color: #223142;
     width: fit-content;
+    justify-content: center;
 }
 
 h3{

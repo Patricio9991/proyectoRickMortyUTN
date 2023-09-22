@@ -1,0 +1,26 @@
+.btn{
+    color:#344d67!important;
+    background-color: #6eccaf!important;
+
+}
+
+ul{
+    gap: 0 !important;
+}
+
+.list-group-item{
+    font-family:"Raleway",sans-serif;
+    font-weight: 900;
+    background-color: #223142;
+    color: #f5f5f5 ;
+    border-color: #ffffffe6;
+}
+li:hover{
+    background-color: #b1f0dc;
+    
+}
+
+p{
+    font-family:"Raleway",sans-serif;
+    font-weight: 500;
+}

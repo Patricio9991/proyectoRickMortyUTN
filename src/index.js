@@ -6,15 +6,15 @@ import { Fragment } from 'react';
 
 import reportWebVitals from './reportWebVitals';
 //import Home from "./paginas/home/home"
-//import Characters from './paginas/Characters/characters';
-import Contact from "./componentes/Contact/contact";
+import Characters from './paginas/Characters/characters';
+//import Contact from "./componentes/Contact/contact";
 //import Nav from "./componentes/Nav/nav"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Fragment>
-    <Contact />
+    <Characters />
   </Fragment>
 );
 
