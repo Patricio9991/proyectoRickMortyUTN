@@ -5,3 +5,13 @@ body{
 .row{
     justify-content: center;
 }
+
+.alert{
+    background-color: #6eccaf;
+    color:#344d67;
+}
+
+p,i{
+    margin-top: 0;
+    margin-bottom: 0;
+}

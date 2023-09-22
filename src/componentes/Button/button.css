@@ -1,0 +1,12 @@
+.border{
+    background-color: #344d67;
+    color:#6eccaf;
+    text-align: center;
+    width: 113px;
+    padding: 1rem;
+}
+
+.border:hover{
+    background-color: #6eccaf;
+    color:#344d67;
+}

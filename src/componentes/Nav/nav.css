@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
 
 header{
-    padding: 20px;
+    padding: 40px;
     background-color: #344d67;
 }
 
@@ -11,29 +10,31 @@ nav{
     z-index: 1;
     width: 100%!important;
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
+    
     
 }
 
-.navbar-brand{
-    color:#6eccaf;
-    font-family: 'Raleway', sans-serif;
-    padding: 40px 80px!important;
-}
-.navbar-brand:hover{
-    color:#6eccaf
-}
-.btn-active{
+.btn:hover{
     background-color:#6eccaf!important;
-    color: #344d67!important;
 }
-a{
-    color:#344d67;
+.btn{
+    color:#b1f0dc
+}
+
+h1{
+    color:#b1f0dc;
+    font-size: 20px;
+    
 }
 
 ul{
     list-style-type: none;
     display: flex;
+    gap:30px;
+    padding: 20px;
+
     
 }
 

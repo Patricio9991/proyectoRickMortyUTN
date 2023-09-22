@@ -1,9 +1,11 @@
 import "./home.css"
 
+import Button from "../../componentes/Button/button"
+
 export default function Home(){
 
     return(
-        <div>
+        <header>
             <main>
 
                 <h1>Proyect Rick & Morty</h1>
@@ -13,8 +15,15 @@ export default function Home(){
                 <p>Also you can filter for diferent types of properties to find the character that you are looking for or send us a massage for any concern o sugestion</p>
                 <h2>Lets go!</h2>
 
+                <div className="btnContainer gap-3">
+                <Button btName={"Characters"}/>
+                <Button btName={"Contact"}/>
+                
+                </div>
+
+
             </main>
-        </div>
+        </header>
     )
 
 

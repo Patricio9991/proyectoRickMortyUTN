@@ -106,7 +106,7 @@ export default function Characters(){
                 {characters.length>0?
                     characters.map((ch)=>{
                         return <Card key={ch.id} data={ch}/> 
-                    }): <div className=" d-flex gap-2 m-0 alert alert-success">
+                    }): <div className="d-flex gap-2 my-5 alert m-0">
                         <i className="bi bi-exclamation-triangle-fill"></i>
                         <p> Sorry! There are no characters  width all those properties</p>
                         </div>
