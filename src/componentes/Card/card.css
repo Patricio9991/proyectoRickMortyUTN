@@ -1,12 +1,19 @@
-.btn{
-    color:#344d67!important;
+.button{
+  
     background-color: #6eccaf!important;
     align-self: flex-end;
+    width: fit-content;
+    margin-left: auto;
+    
+}
+
+.txt-btn{
+    color:#344d67;
 }
 
 .card{
+    
     display: flex;
-   
     background-color: #223142;
     width: fit-content;
     justify-content: center;
@@ -15,5 +22,5 @@
 h3{
     width: 300px;
     text-align: center;
-    color: #344d67
+    color:#6eccaf
 }

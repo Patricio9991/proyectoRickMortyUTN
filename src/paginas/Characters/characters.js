@@ -1,9 +1,10 @@
 import {useEffect, useState} from "react";
 
 import "./characteres.css";
+
 import Card from "../../componentes/Card/card.js";
 import Nav from "../../componentes/Nav/nav.js";
-import Filter from "../../componentes/Filter/filter";
+import Filter from "../../componentes/Filter/filter.js";
 
 
 export default function Characters(){
@@ -91,7 +92,7 @@ export default function Characters(){
 
     return(
         <div>
-            <Nav/>
+            <div> <Nav/></div>
         <main className="container">
             
             <h2>Filters</h2>

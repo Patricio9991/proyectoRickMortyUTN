@@ -1,5 +1,5 @@
 
-header{
+.header-nav{
     padding: 40px;
     background-color: #344d67;
 }
@@ -32,9 +32,12 @@ h1{
 ul{
     list-style-type: none;
     display: flex;
-    gap:30px;
+    gap: 20px!important;;
     padding: 20px;
 
     
 }
 
+a{
+    text-decoration: none;
+}

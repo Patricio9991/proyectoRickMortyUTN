@@ -5,17 +5,15 @@ import './index.css';
 import { Fragment } from 'react';
 
 import reportWebVitals from './reportWebVitals';
-//import Home from "./paginas/home/home"
-import Characters from './paginas/Characters/characters';
-//import Contact from "./componentes/Contact/contact";
-//import Nav from "./componentes/Nav/nav"
+import App from "./App"
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Fragment>
-    <Characters />
-  </Fragment>
+  <App/>
+    
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

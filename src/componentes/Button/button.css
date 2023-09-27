@@ -6,7 +6,11 @@
     padding: 1rem;
 }
 
-.border:hover{
-    background-color: #6eccaf;
-    color:#344d67;
+
+.p-btn{
+    color:#6eccaf;
+}
+
+.p-btn:hover{
+    color: #344d67;
 }

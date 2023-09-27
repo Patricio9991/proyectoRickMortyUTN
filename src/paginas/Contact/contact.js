@@ -1,7 +1,7 @@
 import "./contact.css"
 import {Fragment} from "react"
 
-import Nav from "../Nav/nav"
+import Nav from "../../componentes/Nav/nav"
 
 export default function Contact(){
 
@@ -9,7 +9,7 @@ export default function Contact(){
         <Fragment>
             <Nav/>
             <div className="container-info">
-            <main>
+            <div className="main-canvas">
                 <div className="text-center">
                     <h2>Contact</h2>
                     <h2>Leave us your information so we can contact you</h2>
@@ -32,7 +32,7 @@ export default function Contact(){
                     <button type="submit" className="btn">Send</button>
                 </div>
                 </form>
-            </main>
+            </div>
             </div>
 
 
