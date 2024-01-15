@@ -24,3 +24,15 @@ p{
     font-family:"Raleway",sans-serif;
     font-weight: 500;
 }
+
+@media (max-width: 475px){
+    .cross{
+        color: 6eccaf!important;
+        border:solid #344d67;
+        width: 50%;
+    }
+    .ssm{
+        display:grid!important;
+    
+    }
+} 

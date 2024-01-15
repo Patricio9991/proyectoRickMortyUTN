@@ -5,7 +5,7 @@ export default function InfoCh({status,species,origin,gender,setShow}){
 
     return(
         <div >
-            <div className="d-flex flex-row ">
+            <div className="d-flex flex-row ssm">
             
                 <ul className="list-group ps-2">
                     <li className=" li list-group-item">Character Status {status} </li>
@@ -15,7 +15,7 @@ export default function InfoCh({status,species,origin,gender,setShow}){
                     
                 </ul>
 
-                <button className="btn align-self-start"onClick={()=>setShow(false)}>X</button>
+                <button className="btn align-self-start cross"onClick={()=>setShow(false)}>X</button>
         
             </div>
 

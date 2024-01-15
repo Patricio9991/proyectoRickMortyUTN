@@ -24,3 +24,10 @@ h3{
     text-align: center;
     color:#6eccaf
 }
+
+
+@media (max-width: 475px){
+    .card{
+        display: grid;
+    }
+} 
