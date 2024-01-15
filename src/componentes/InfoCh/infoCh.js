@@ -5,7 +5,7 @@ export default function InfoCh({status,species,origin,gender,setShow}){
 
     return(
         <div >
-            <div className="d-flex flex-row ssm">
+            <div className="d-flex flex-row">
             
                 <ul className="list-group ps-2">
                     <li className=" li list-group-item">Character Status {status} </li>
