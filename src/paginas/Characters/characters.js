@@ -47,6 +47,7 @@ export default function Characters(){
     }
     useEffect(()=>{
         savedCharacters();
+        // eslint-disable-next-line
     },[])
 
 
@@ -68,9 +69,13 @@ export default function Characters(){
         }
         setCharacters(response)
     }
+
     useEffect(()=>{
-        console.log(filtered)
-        filtered.forEach((item)=>{filterApplied(item)})},[filtered])
+        filtered.forEach((item)=>{filterApplied(item)})}
+        // eslint-disable-next-line
+        ,[filtered])
+    
+
 
     let handlerFilters=(event)=>{
 

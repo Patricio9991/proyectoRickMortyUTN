@@ -1,4 +1,4 @@
-import {useState} from "react";
+
 import {Link} from "react-router-dom";
 
 import "./nav.css"
@@ -17,10 +17,10 @@ export default function Nav(){
                  <Link to="/"><h1>Rick & Morty</h1></Link>
                     <ul className="g-3">
                         <li>
-                        <Link to="/characters"> <a className="btn p-2">Characters</a></Link>
+                        <Link to="/characters"> <p className="btn p-2">Characters</p></Link>
                         </li>
                         <li>
-                        <Link to="/contact"><a className="btn p-2">Contact</a></Link>
+                        <Link to="/contact"><p  className="btn p-2">Contact</p></Link>
                         </li>
                     </ul>
                 
