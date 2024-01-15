@@ -18,7 +18,7 @@ export default function Card({data}){
                         <h3>{data.name}</h3>
                         <button className={show===true? "d-none button txt-btn":"d-block btn button"} onClick={() =>setShow(true)}> know more.. </button>
                     </div>
-                    <div className="info">  
+                    <div className=" d-sm-grid">  
                     {show === true? <InfoCh status={data.status} species={data.species} origin={data.origin.name} gender={data.gender} setShow={setShow}/>: ""  } 
                     </div>
                     
