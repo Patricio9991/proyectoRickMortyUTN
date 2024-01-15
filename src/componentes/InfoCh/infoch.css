@@ -28,8 +28,9 @@ p{
 @media (max-width: 475px){
     .cross{
         color: 6eccaf!important;
-        border:solid #344d67;
+        border:solid #6eccaf;
         width: 50%;
+        background-color: #344d67;
     }
     .ssm{
         display:grid!important;

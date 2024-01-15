@@ -12,13 +12,13 @@ export default function Card({data}){
     //creo cada tarjeta
     return(
         
-        <div className="card m-2 p-2 d-flex flex-row gap-2">
+        <div className="card m-2 p-2 d-flex flex-row gap-2 w-100">
                     <div>
                         <img src={data.image} alt={data.name}/>
                         <h3>{data.name}</h3>
                         <button className={show===true? "d-none button txt-btn":"d-block btn button"} onClick={() =>setShow(true)}> know more.. </button>
                     </div>
-                    <div className=" d-sm-grid">  
+                    <div className="d-sm-grid ">  
                     {show === true? <InfoCh status={data.status} species={data.species} origin={data.origin.name} gender={data.gender} setShow={setShow}/>: ""  } 
                     </div>
                     
