@@ -8,6 +8,8 @@ import Filter from "../../componentes/Filter/filter.js";
 
 
 export default function Characters(){
+    
+    const [showFilters,setShowFilters]=useState(true)
 
     let [characters, setCharacters]=useState([])
     let [FullList, setFullList]=useState([])
@@ -95,14 +97,17 @@ export default function Characters(){
             <div> <Nav/></div>
         <main className="container">
             
-            <h2>Filters</h2>
-            <form className="d-flex fs-7 justify-content-between ">
-                {switches.map((sw)=>{
-                    return <Filter key={sw.id} value={sw.filterName} id={sw.id} handlerFilters={handlerFilters}/>
-                })}
-            </form >
+            <h2 onClick={()=>{setShowFilters(!showFilters);console.log(showFilters)}}
+                className="link-underline-opacity-100 btn border p-btn fs-3" role="button">Filters</h2>
+            {showFilters === false? (
+                <form className="d-sm-grid justify-content-sm-center d-md-flex fs-7 justify-content-between gap-4 gap-sm-2 ">
+                            {switches.map((sw)=>{
+                                return <Filter key={sw.id} value={sw.filterName} id={sw.id} handlerFilters={handlerFilters}/>
+                            })}
+                        </form >):("")}
+
             
-            <section className="row">
+            <section className="row ">
                
                 {characters.length>0?
                     characters.map((ch)=>{

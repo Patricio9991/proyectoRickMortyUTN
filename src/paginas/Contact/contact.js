@@ -9,7 +9,7 @@ export default function Contact(){
         <Fragment>
             <Nav/>
             <div className="container-info">
-            <div className="main-canvas">
+            <div className="main-canvas pb-sm-4">
                 <div className="text-center">
                     <h2>Contact</h2>
                     <h2>Leave us your information so we can contact you</h2>

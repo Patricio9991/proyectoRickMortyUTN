@@ -12,7 +12,7 @@ export default function Nav(){
  
     return(
 
-        <header className="header-nav">
+        <header className="header-nav mb-sm-4">
             <nav>
                  <Link to="/"><h1>Rick & Morty</h1></Link>
                     <ul className="g-3">
