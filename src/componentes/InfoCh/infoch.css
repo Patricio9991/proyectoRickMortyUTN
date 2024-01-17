@@ -4,8 +4,8 @@
     align-self:flex-end;
 }
 
-ul{
-    gap: 0 !important;
+.list-group{
+    gap:0px!important
 }
 
 .list-group-item{
