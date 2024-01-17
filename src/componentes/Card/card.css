@@ -27,7 +27,7 @@ h3{
 
 
 @media (max-width: 475px){
-    .card{
-        display: grid;
+    .flex-row{
+        flex-direction: column!important;
     }
 } 

@@ -12,7 +12,7 @@ export default function Card({data}){
     //creo cada tarjeta
     return(
         
-        <div className="card m-2 p-2 d-flex flex-row gap-2 w-100">
+        <div className="card m-2 p-2 d-flex flex-row gap-2 w-fit">
                     <div>
                         <img src={data.image} alt={data.name}/>
                         <h3>{data.name}</h3>

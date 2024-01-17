@@ -15,3 +15,11 @@ p,i{
     margin-top: 0;
     margin-bottom: 0;
 }
+
+
+@media (max-width: 475px){
+    .row{
+        width:fit-content ;
+    }
+
+} 

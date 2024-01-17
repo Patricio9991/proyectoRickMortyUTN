@@ -112,7 +112,7 @@ export default function Characters(){
                         </form >):("")}
 
             
-            <section className="row ">
+            <section className="row  ">
                
                 {characters.length>0?
                     characters.map((ch)=>{
